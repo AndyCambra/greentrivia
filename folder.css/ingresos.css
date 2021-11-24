@@ -1,0 +1,43 @@
+#ingresos {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+}
+#ingresos label {
+  color: rgb(3, 58, 37);
+}
+#ingresos input {
+  width: 300px;
+  margin: 5px auto 15px;
+  border: none;
+  background-color: #e9da9b;
+  height: 20px;
+}
+
+.normal {
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #af741b;
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+}
+.normal th {
+  width: 15%;
+  text-align: center;
+  padding-left: 10px;
+  color: rgb(3, 58, 37);
+  background-color: rgb(241, 223, 160);
+}
+.normal th:first-child {
+  width: 30%;
+}
+.normal td:first-child {
+  width: 30%;
+}
+.normal tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.normal td {
+  width: 15%;
+  text-align: center;
+  padding-left: 10px;
+}

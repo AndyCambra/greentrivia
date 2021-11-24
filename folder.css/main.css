@@ -1,0 +1,128 @@
+.image {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.title2 {
+  width: 30%;
+  position: absolute;
+  text-align: center;
+}
+.title2 h1 {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  line-height: 0.9;
+  margin: -200px 15px;
+  text-shadow: -3px -3px 5px rgb(34, 32, 32);
+  margin-left: 20px;
+}
+.ingresos {
+  margin: 40px 400px 200px;
+  float: left;
+  width: 600px;
+}
+.card {
+  float: left;
+  height: 340px;
+  background-color: none;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.placeholder-card {
+  width: 50%;
+  background-color: rgb(233, 216, 142);
+  border: double;
+  border-color: rgb(7, 31, 27);
+  font-size: 1em;
+}
+
+.card-header {
+  font-size: 1em;
+  font-weight: 500;
+}
+.card-title {
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(233, 216, 142);
+}
+.enviar-button {
+  background-color: rgb(46, 163, 114);
+  color: #fff;
+  border-color: rgb(134, 201, 173);
+  border-radius: 5%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.showName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  margin-top: 250px;
+  position: relative;
+  color: rgb(53, 43, 27);
+}
+.obtenerResultados {
+  background-color: rgb(46, 163, 114);
+  text-align: center;
+  margin-top: 30px;
+}
+.result-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .image {
+    width: 140px;
+    margin: 0 auto;
+  }
+
+  .title2 {
+    width: 70%;
+    margin: -130px 20px;
+  }
+  .title2 h1 {
+    font-size: 2.8em;
+    margin: -120px 15px;
+    text-shadow: -2px -2px 4px rgb(8, 8, 8);
+  }
+  .ingresos {
+    float: none;
+    width: 600px;
+    height: 500px;
+    margin-top: 160px;
+    margin-left: 20px;
+    width: 85%;
+    padding-top: 20px;
+  }
+  .card {
+    float: none;
+    height: 200px;
+  }
+  .card-header {
+    font-size: 0.7em;
+    font-weight: 300;
+    margin: 5px;
+  }
+  .card-title {
+    font-size: 0.8em;
+    margin: 5px;
+  }
+  .card-text {
+    font-size: 0.8em;
+  }
+  .showName {
+    font-size: 1em;
+    margin: 0px;
+    text-shadow: -1px -1px 4px rgb(34, 32, 32);
+    color: #fff;
+  }
+  .placeholder-card {
+    font-size: 0.8em;
+  }
+}

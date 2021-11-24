@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/folder.css/ingresos.css">
+    <title>Cargas</title>
+</head>
+<body>
+    <form action="" id="ingresos">
+        <label for="pregText">Enunciado Pregunta</label><br>
+        <input type="text" id="pregText" name="pregText"><br>
+       
+        <label for="pregPoints">Puntos de la pregunta</label><br>
+        <input type="number" min="1" max="5" id="pregPoints" name="pregPoints"><br>
+       
+        <label for="awns1">Respuesta 1</label><br>
+        <input type="text" id="awns1" name="awns1"><br>
+       
+        <label for="awns2">Respuesta 2</label><br>
+        <input type="text" id="awns2" name="awns2"><br>
+
+        <label for="awns3">Respuesta 3</label><br>
+        <input type="text" id="awns3" name="awns3"><br>
+
+        <label for="awns3">Cual es la correcta?</label><br>
+        <input type="text" id="isCorrect" name="isCorrect"><br>
+
+        <br>
+       
+        <input  type="submit" value="Ingresar pregunta"><br>
+        <button id="showbutton">Mostrar</button>
+    </form>
+    
+    <table class="normal">
+        <tr>
+        <th>Pregunta</th><th>Puntos</th><th>Respuesta 1</th><th>Respuesta 2</th><th>Respuesta 3</th><th>Correcta</th></tr>
+       
+       
+ </table>
+            <div id="show" ></div>
+
+    <script src="/JStrivia/ingresos.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+ [
+    {
+      "id": 1,
+      "text": "Cuál es el nombre de la Orquídea más común?",
+     "points": 3,
+      "answer1": "1) Phaleanopsis",
+      "answer2": "2) Dendrobium",
+      "answer3": "3) Cymbidiun",
+      "isCorrect": 1
+    },
+    {
+      "id": 2,
+      "text": "Cual es el Dólar que no es vegetal?",
+      "points": 2,
+      "answer1": "1) Dólar Negro",
+      "answer2": "2) Dólar Blue",
+      "answer3": "3) Dólar de Oro",
+      "isCorrect": 2
+    },
+    {
+      "id": 3,
+      "text": "De que familia es la Monstera?",
+      "points": 2,
+      "answer1": "1) Es una Alocacia",
+      "answer2": "2) En una Marginata",
+      "answer3": "3) En un Filodendro",
+      "isCorrect": 3
+    },
+    {
+      "id": 4,
+      "text": "Cuantas veces al año florece un Jazmín Cuatro Estaciones?",
+      "points": 1,
+      "answer1": "1) Dos",
+      "answer2": "2) Tres",
+      "answer3": "3) Cuatro",
+      "isCorrect": 2
+    }
+  ]
+  

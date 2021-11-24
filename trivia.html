@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./folder.css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Green Trivia</title>
+</head>
+<body>
+    <div class="container">
+      <div class="title2">
+      <img class="image" src="./images/hoja500.png">
+      <h1>Green Trivia</h1>
+      <div id="showName" class="showName"></div>
+      </div>
+    </div>  
+    <div class="ingresos">
+      <form id= "ingresos">
+      <div class="card" id="tarjeta">
+    </div>
+    
+      
+      <div>
+        <label class="respuesta-label" for="userResponse"></label>
+        <input type="number" class="placeholder-card" min="1" max="3" id="userResponse" name="userResponse" placeholder="Responda 1, 2 o 3">
+        <input type="button" class="enviar-button" id="enviar" value="Enviar"><br>
+      </div>
+      </form>
+      <div id="obtenerResultados" class="obtenerResultados"></div>
+   
+    </div>
+    
+
+    </div>
+    <script src="JStrivia/trivia.js"></script>
+    <script src="JStrivia/globales.js"></script>
+    
+    <script src="JStrivia/main.js"></script>
+</body>
+
+</html>
